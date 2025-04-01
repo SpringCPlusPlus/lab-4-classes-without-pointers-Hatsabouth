@@ -13,10 +13,11 @@ class Point {
 
   public:
     // Constructor
-    Point(double xCoord, double yCoord);
+    
 
     // Member function to calculate distance to another Point
     double distanceTo(const Point& other) const;
+
 
     //Member function to print the point.
     void print() const;
